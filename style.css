@@ -1,0 +1,70 @@
+#navar{
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+}
+#main{
+    display: flex;
+}
+
+.child1{
+background-color: orangered;
+width: 20%;
+height: 210px;
+order: 2;
+}
+.child2{
+width: 60%;
+order: 1;
+}
+.child3{
+    background-color: aqua;
+    width: 20%;
+    height: 210px;
+    order: 3;
+}
+#footer{
+background-color: black;
+color: wheat;
+text-align: center;
+padding: 10px;
+}
+.sec-main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+}
+.part-1{
+    background-color: aqua;
+    height: 200px;
+    width: 33.33%;
+
+}
+.part-2{
+    background-color: rgb(13, 81, 81);
+    height: 200px;
+    width: 33.33%;
+}
+.part-3{
+    background-color: rgb(22, 81, 218);
+    width: 33.33%;
+    height: 200px;
+}
+.part-4{
+    background-color: rgb(21, 224, 126);
+    width: 33.33%;
+    height: 200px;
+}
+.part-5{
+    background-color: rgb(199, 6, 205);
+    width: 33.33%;
+    height: 200px;
+}
+.part-6{
+    background-color: rgb(212, 203, 21);
+    width: 33.33%;
+    height: 200px;
+}
